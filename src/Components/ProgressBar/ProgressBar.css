@@ -1,0 +1,46 @@
+.ProgressBar {
+  position: relative;
+  height: 25px;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: rgb(245, 242, 242);
+  box-shadow: 0 0 1px grey;
+  margin: 0.5%;
+  width: 40%;
+  margin-left: 25%;
+}
+
+.ProgressFill {
+  position: absolute;
+  height: 23px;
+  width: 0%;
+  text-align: center;
+  border-radius: 5px;
+  top:3px;
+  
+}
+
+.LabelStyles {
+  position: absolute;
+  z-index: 99;
+  margin-left: 50%;
+}
+
+@keyframes progress-forward {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 50%;
+  }
+  50% {
+    width: 75%;
+  }
+  75% {
+    width: 85%;
+  }
+  100% {
+    width: 100%;
+  }
+} ;

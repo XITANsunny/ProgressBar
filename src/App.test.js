@@ -13,3 +13,13 @@ test('renders bars demo', () => {
   const linkElement = screen.getByText(/Progress Bars Demo/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+test('increse and decrease numbers contain -10', () => {
+  expect(avalibleChangePercentage).toContain(-25);
+});
+
+it('Renders with a className equal to the variant', () => {
+  const { container } = render(<App/>)
+  expect(container.getElementsByClassName('ChangeButton').length).toBe(4);
+});
+
