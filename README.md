@@ -1,17 +1,3 @@
-#Progress bar prject
-
-The progress bar will meet the requirements as:
-•	solution should implemented by using React Framework, TypeScript is preferred 
-•	Behaviors match the video 
-•	Multiple bars
-•	One set of controls that can control each bar on the fly
-•	Can't go under 0
-•	Can go over 100, but limit the bar itself and change its color
-•	Display usage amount, centered
-•	Write tests for your code (hint: TDD strongly preferred)
-•	Implement a responsive solution: testing it on the mobile, tablet, etc. Getting it working nicely.
-•	Animate the bar change, and make sure it works well when you tap buttons quickly.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
